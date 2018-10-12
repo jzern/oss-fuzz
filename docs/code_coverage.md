@@ -23,7 +23,7 @@ used. In order to produce such build for your project, run:
 
 ```bash
 python infra/helper.py build_image $project_name
-python infra/helper.py build_fuzzers --sanitizer=profile $project_name
+python infra/helper.py build_fuzzers --sanitizer=coverage $project_name
 ```
 
 
